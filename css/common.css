@@ -24,21 +24,28 @@ button {
 }
 
 .gallery {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  
-  list-style: none;
-}
+  display: block;
 
-.gallery__item:first-child {
-  order: 1;
-  margin-top: 30px;
+  padding: 0;
+  list-style: none;
 }
 
 .gallery__img {
   display: block;
-  width: 630px;
-  height: auto;
+  margin: 10px auto;
+  width: 300px;
+}
+
+@media screen and (min-width: 768px){
+  .gallery__img {
+    width: 700px;
+    margin: 30px auto;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .gallery__img {
+    width: 1150px;
+    margin: 50px auto;
+  }
 }
