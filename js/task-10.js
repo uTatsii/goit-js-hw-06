@@ -28,5 +28,5 @@ function createBoxes(amount) {
 
 function destroyBoxes() {
   mainBox.innerHTML = "";
+  amountOfBoxes.value = "";
 }
-
