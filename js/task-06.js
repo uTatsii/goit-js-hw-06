@@ -1,7 +1,7 @@
-const input = document.querySelector('#validation-input');
+const input = document.querySelector("#validation-input");
 
-input.addEventListener('blur', onInputBlur);
-input.addEventListener('focus', onInputFocus)
+input.addEventListener("blur", onInputBlur);
+input.addEventListener("focus", onInputFocus);
 
 function onInputBlur(event) {
   event.currentTarget.value.length === Number(input.dataset.length)

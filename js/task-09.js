@@ -1,5 +1,5 @@
-const body = document.querySelector('body');
-const colorName = document.querySelector('.color');
+const body = document.querySelector("body");
+const colorName = document.querySelector(".color");
 const changeColorBtn = document.querySelector(".change-color");
 
 changeColorBtn.addEventListener("click", onBodyChangeColor);
